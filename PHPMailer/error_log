@@ -1,0 +1,5 @@
+[23-Dec-2019 12:24:31 UTC] PHP Fatal error:  Class 'PHPMailer' not found in /home/rcsxkaaa/public_html/PHPMailer/class.phpmaileroauth.php on line 26
+[26-Dec-2019 05:32:05 UTC] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/rcsxkaaa/public_html/PHPMailer/get_oauth_token.php on line 18
+[26-Dec-2019 05:32:05 UTC] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/rcsxkaaa/public_html/PHPMailer/get_oauth_token.php on line 18
+[26-Dec-2019 05:32:05 UTC] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/rcsxkaaa/public_html/PHPMailer/get_oauth_token.php on line 18
+[26-Dec-2019 05:36:33 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/rcsxkaaa/public_html/PHPMailer/PHPMailerAutoload.php on line 45

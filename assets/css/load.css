@@ -1,0 +1,484 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+.ion-20 {
+  font-size: 20px;
+}
+
+.ion-21 {
+  font-size: 21px;
+}
+
+.ion-22 {
+  font-size: 22px;
+}
+
+.ion-23 {
+  font-size: 23px;
+}
+
+.ion-24 {
+  font-size: 24px;
+}
+
+.ion-25 {
+  font-size: 25px;
+}
+
+.ion-26 {
+  font-size: 26px;
+}
+
+.ion-27 {
+  font-size: 27px;
+}
+
+.ion-28 {
+  font-size: 28px;
+}
+
+.ion-29 {
+  font-size: 29px;
+}
+
+.ion-30 {
+  font-size: 30px;
+}
+
+.ion-31 {
+  font-size: 31px;
+}
+
+.ion-32 {
+  font-size: 32px;
+}
+
+.ion-33 {
+  font-size: 33px;
+}
+
+.ion-34 {
+  font-size: 34px;
+}
+
+.ion-35 {
+  font-size: 35px;
+}
+
+.ion-36 {
+  font-size: 36px;
+}
+
+.ion-37 {
+  font-size: 37px;
+}
+
+.ion-38 {
+  font-size: 38px;
+}
+
+.ion-39 {
+  font-size: 39px;
+}
+
+.ion-40 {
+  font-size: 40px;
+}
+
+.ion-41 {
+  font-size: 41px;
+}
+
+.ion-42 {
+  font-size: 42px;
+}
+
+.ion-43 {
+  font-size: 43px;
+}
+
+.ion-44 {
+  font-size: 44px;
+}
+
+.ion-45 {
+  font-size: 45px;
+}
+
+.ion-46 {
+  font-size: 46px;
+}
+
+.ion-47 {
+  font-size: 47px;
+}
+
+.ion-48 {
+  font-size: 48px;
+}
+
+.ion-49 {
+  font-size: 49px;
+}
+
+.ion-50 {
+  font-size: 50px;
+}
+
+.blue {
+  color: #3498db;
+}
+
+.red {
+  color: #e74c3c;
+}
+
+.yellow {
+  color: #f1c40f;
+}
+
+.teal {
+  color: #2ecc71;
+}
+
+.purple {
+  color: #9b59b6;
+}
+
+.green {
+  color: #2ecc71;
+}
+
+.turquoise {
+  color: #1abc9c;
+}
+
+.element-invisible {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.element-invisible.element-focusable:active,
+.element-invisible.element-focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+.animate {
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tac {
+  text-align: center;
+}
+
+.hide-text {
+  display: block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.spin:before {
+  -moz-animation: spin 3s linear 0s infinite;
+  -webkit-animation: spin 3s linear 0s infinite;
+  animation: spin 3s linear 0s infinite;
+}
+
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  /* all your styles for dark mode here */
+}
+
+.browser-wrap {
+  position: relative;
+  width: 100vw; height: 100vh; position: fixed; top: 0; left: 0; margin: auto; opacity: 1; -webkit-transition: linear .3s ease; -moz-transition: linear .3s ease; transition: linear .3s ease; z-index: 9999;
+  background-image: radial-gradient(circle farthest-corner at center,#a48fd6 0%, #efebf9 100%);
+}
+
+.browser {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: #eee;
+  max-width: 550px;
+  max-height: 300px;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 2px 5px rgba(34, 34, 34, 0.5);
+  -webkit-box-shadow: 0 2px 5px rgba(34, 34, 34, 0.5);
+  box-shadow: 0 2px 5px rgba(34, 34, 34, 0.5);
+}
+.browser .icon {
+  display: table;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.browser .icon span {
+  display: table-cell;
+  vertical-align: middle;
+  color: #6138bd;
+}
+.browser .header, .browser .body {
+  padding: 0.5em 1em;
+}
+.browser .header {
+  background: #ccc;
+  color: #999;
+}
+.browser .header .right {
+  float: right;
+}
+.browser .tablet {
+  text-align: center;
+  color: #999;
+  background: #ccc;
+  margin: 10px 10px 0;
+  height: 75%;
+  position: relative;
+}
+.browser .tablet span {
+  position: absolute;
+  bottom: -38px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.browser .phone {
+  background: #ccc;
+  margin: 10px 0;
+  height: 80%;
+}
+
+.aboutAni {
+  max-width: 250px;
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  background: #eee;
+  z-index: 2;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 2px 5px rgba(34, 34, 34, 0.5);
+  -webkit-box-shadow: 0 2px 5px rgba(34, 34, 34, 0.5);
+  box-shadow: 0 2px 5px rgba(34, 34, 34, 0.5);
+}
+
+.design .head {
+  margin-bottom: 1em;
+  width: 100%;
+  height: 100px;
+  background: #ccc;
+}
+.design .box-contain {
+  margin: 0 auto;
+  width: 245px;
+  text-align: center;
+}
+.design .box {
+  display: inline-block;
+  margin: 5px 5px 5px;
+  width: 20%;
+  height: 50px;
+  background: #ccc;
+}
+.design .box-large {
+  width: 70%;
+  height: 60px;
+}
+
+.develop {
+  height: 100%;
+  background: #ddd;
+}
+.develop .sidebar {
+  width: 30%;
+  height: 100%;
+  float: left;
+  background: #eee;
+}
+.develop .codebar {
+  width: 70%;
+  height: 100%;
+  padding: 1em;
+  float: right;
+}
+.develop .line {
+  margin-bottom: 15px;
+  width: 100%;
+  height: 7px;
+  background: #fff;
+}
+
+.heart {
+  text-align: center;
+  height: 100%;
+}
+.heart span {
+  display: inherit;
+  position: relative;
+  top: 50%;
+  color: #e74c3c;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.more {
+  position: relative;
+  top: 50%;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: #222;
+  font-weight: bold;
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-align: center;
+}
+.more span {
+  position: relative;
+  top: -1px;
+  margin-right: 5px;
+  color: #6138bd;
+  vertical-align: middle;
+}
+
+.load {
+  z-index: 9999;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  margin: auto;
+  max-width: 500px;
+  max-height: 500px;
+  width: 100vw; height: 100vh; 
+  color: #fff;
+  text-align: center;
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.load .quote {
+  margin-top: 1em;
+  font-size: 23px;
+  
+  font-weight: lighter;
+  color: #222;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  margin-top: -150px;
+  width: 100%;
+  color: #222;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.aboutText {
+  margin-top: -200px;
+}
+.aboutText div {
+  display: inline-block;
+}
+
+.skip{
+  position: absolute;
+  top: 80px;
+  right: 40px;
+}
+.skip span{
+  font-size: 20px;
+  color: #222;;
+}
+.skip span a{
+  color: #6138bd;
+  font-size: 24px;
+}
