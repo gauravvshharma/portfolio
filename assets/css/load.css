@@ -244,13 +244,11 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  /* all your styles for dark mode here */
-}
-
 .browser-wrap {
   position: relative;
-  width: 100vw; height: 100vh; position: fixed; top: 0; left: 0; margin: auto; opacity: 1; -webkit-transition: linear .3s ease; -moz-transition: linear .3s ease; transition: linear .3s ease; z-index: 9999;
+  width: 100% !important; 
+  height: 100% !important; 
+  position: fixed; top: 0; left: 0; margin: auto; opacity: 1; -webkit-transition: linear .3s ease; -moz-transition: linear .3s ease; transition: linear .3s ease; z-index: 9999;
   background-image: radial-gradient(circle farthest-corner at center,#a48fd6 0%, #efebf9 100%);
 }
 
