@@ -64,13 +64,13 @@ strong { font-size: 1.000em; line-height: 25px; font-weight: 600; }
 .d-lg-block{
   display: block;
 }
+.d-sm-none{
+  display: none;
+}
 @media (max-width: 767px) {
   .text-size-sd-md {
     font-size: 36px !important; 
     line-height: 66px !important;
-  }
-  .d-sm-none{
-    display: none !important;
   }
 }
 /* line height */
@@ -1284,12 +1284,14 @@ opacity:0
 }
 
 @media (max-width: 767px) {
-.dtr-rounded-img .experience-position-sm {
-    position: relative;
-    left: 55%;
-    top: -120%;
-    width: 45%;
-}
+  .dtr-sm-pb-50  { padding-bottom: 50px !important }
+  .dtr-sm-pt-50 { padding-top: 50px !important }
+  .dtr-rounded-img img {
+    height: 200px;
+    }
+    .caption-inner .caption-content-type span.caption-desc {
+      display: none;
+    }
 }
 
 .dtr-rounded-img .experience-test{
@@ -1321,11 +1323,7 @@ opacity:0
         max-width: 100%;  
       }
   }
-  @media only screen and (max-width: 768px){
-    .timeline{
-      max-width: 40%;  
-    }
-}
+
 
   .timeline .event {
     border-bottom: 1px dashed #d5d8e0;
@@ -1372,13 +1370,7 @@ opacity:0
         right: -77.5px;
       } 
   }
-  @media only screen and (max-width: 768px){
-    .timeline .event:before {
-        right: 247.5px;
-        top: 150px;
-    }
     
-}
 
  
   .timeline .event:after {
@@ -1432,16 +1424,25 @@ div.overlay-blue:hover {background-color: rgba(13, 27, 43, 0.5);}
   
   .caption-inner {
     position: relative;
-    background: #fff;
     -webkit-transition: all 0.45s ease-in-out;
     transition: all 0.45s ease-in-out;
   }
   
   .caption-inner .caption-content-type {
     margin-top: 0;
-    font-size: 16px;
-    color: #33cc99;
+    font-size: 18px;
+    color: #888;
     padding-bottom: 5px;
+  }
+  .caption-inner .caption-content-type span{
+    color: #6138bd;
+    font-weight: 500;
+  }
+  .caption-inner .caption-content-type span.caption-desc{
+  margin-top: 0;
+  font-size: 18px;
+  color: #777;
+  padding-bottom: 5px;
   }
   
   .caption-inner h1 {
@@ -1483,7 +1484,7 @@ div.overlay-blue:hover {background-color: rgba(13, 27, 43, 0.5);}
     color: rgba(0, 0, 0, 0.45);
     opacity: 1;
     text-shadow: none;
-    z-index: 999;
+    z-index: 9999;
   }
   
   .carousel-control img {
@@ -1503,12 +1504,15 @@ div.overlay-blue:hover {background-color: rgba(13, 27, 43, 0.5);}
   
   .carousel-control.right i,
   .carousel-control.left i {
-    font-size: 18px;
+    font-size: 22px;
   }
   
   .carousel-control:focus,
   .carousel-control:hover {
     color: #000;
+    opacity: 1;
+    visibility: visible;
+    display: block;
     text-decoration: none;
   }
   
@@ -1516,15 +1520,15 @@ div.overlay-blue:hover {background-color: rgba(13, 27, 43, 0.5);}
     .hero {
       overflow: hidden;
     }
-  
-  
-    .hero,
+  .hero,
   .slide,
   .slide img,
   .carousel-caption-container {
-      min-height: 90vh;
+      min-height: 40vh;
     }
-  
+    .d-sm-none{
+      display: none;
+    }
     .carousel-caption-container {
       position: relative;
       width: 100%;
@@ -1538,8 +1542,8 @@ div.overlay-blue:hover {background-color: rgba(13, 27, 43, 0.5);}
   
     .caption-inner {
       width: 100%;
-      margin: 25px;
     }
+
   
     .caption-inner p {
       font-size: 16px;
@@ -1608,10 +1612,10 @@ div.overlay-blue:hover {background-color: rgba(13, 27, 43, 0.5);}
     }
   
     .item-count {
-      color: #ccc;
+      color: #888;
       position: absolute;
       bottom: 30px;
-      left: 55px;
+      left: 0px;
       font-size: 11px;
     }
   }
@@ -1656,7 +1660,7 @@ div.overlay-blue:hover {background-color: rgba(13, 27, 43, 0.5);}
     }
   
     .caption-div {
-      padding: 75px 75px 90px 75px;
+      padding: 75px 75px 90px 0px;
     }
   }
   @media (min-width: 1600px) {

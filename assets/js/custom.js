@@ -295,7 +295,7 @@ $(function() {
 	"use strict";
   
 	var quotes = [
-	  "Be cautious, you are entering my territory.",
+	  "Welcome! I'm Gaurav Sharma",
 	];
   
 	$('.quote').html(quotes[Math.floor(Math.random() * quotes.length)]);
