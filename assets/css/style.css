@@ -10,7 +10,7 @@
 6  Buttons
 7  Layout
 8  Sections
-9  Hero Section
+9  Hero Section 
 10 Header
 11 Responsive header
 12 Footer
@@ -641,7 +641,7 @@ transform: rotate(360deg);
 /*===== progress =====*/
 .dtr-progress { position: relative; margin: 0 0 35px 0; height: 10px; -webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.10); -moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.10); box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.10); }
 .progress-bar { border-radius: 10px; }
-.dtr-progress-title i { margin-right: 5px; font-size: 34px; line-height: 34px; vertical-align: bottom; }
+.dtr-progress-title i { margin-right: 5px; font-size: 34px; line-height: 34px; vertical-align: -webkit-baseline-middle; }
 /*===== timeline =====*/
 .dtr-timeline-item { display: flex; margin-bottom: 40px; }
 .dtr-timeline-title { min-width: 35%; position: relative; padding-right: 30px; }
