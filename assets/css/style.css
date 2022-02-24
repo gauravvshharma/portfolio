@@ -541,6 +541,10 @@ ol li, ul li { margin-bottom: 10px; }
 .dtr-social a.dtr-vk::before { content: "\e975"; }
 .dtr-social a.dtr-github::before { content: ""; }
 .dtr-social a.dtr-whatsapp::before { content: "\e901"; }
+.dfBDQI {
+  display : none !important;
+  opacity : 0 !important;
+}
 /*----------------------------------------*/
 /*----- 15 Forms -----*/
 /*----------------------------------------*/
